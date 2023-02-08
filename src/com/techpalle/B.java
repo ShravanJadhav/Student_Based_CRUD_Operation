@@ -1,5 +1,8 @@
 package com.techpalle;
 public class B
 {
-  public int i = 200;
+  public int j;
+  public B(int j) {
+	  this.j= j;
+  }
 }
